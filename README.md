@@ -19,7 +19,7 @@ The North Eastern Region loses roads, bridges and sometimes lives every monsoon 
 
 This repo contains the **command-center web application** — the GIS dashboard, alerting console, sensor/field-reporting interface, and analytics layer that district authorities and field teams would actually use. It is built as a fully working, click-through prototype so that the risk-scoring logic, alert workflow and UI/UX can be demonstrated end-to-end today, while the production data pipeline (live sensors, satellite feeds, trained ML model) is wired in behind the same interface.
 
-> ⚠️ **Honesty note, because it matters:** the risk scores, sensor readings and alerts you see in this build are **simulated** (clearly flagged with a `● DEMO / SIMULATION DATA` banner in the UI). We are not claiming a trained model with production accuracy — that would be dishonest at a hackathon and in engineering generally. Section 8 explains exactly what's real, what's a working mock, and what the evaluation plan looks like once we're trained on real landslide inventory data.
+> **Honesty note, because it matters:** the risk scores, sensor readings and alerts you see in this build are **simulated** (clearly flagged with a `● DEMO / SIMULATION DATA` banner in the UI). We are not claiming a trained model with production accuracy — that would be dishonest at a hackathon and in engineering generally. Section 8 explains exactly what's real, what's a working mock, and what the evaluation plan looks like once we're trained on real landslide inventory data.
 
 ---
 
@@ -65,11 +65,9 @@ The alert payload is modelled on the **OASIS Common Alerting Protocol (CAP)** fo
   <img width="49%" alt="Analytics view 2" src="https://github.com/user-attachments/assets/690589f4-4e51-40c1-be81-6d8443ee30ae" />
 </p>
 
-**Alert Center**
 
 <img width="1600" alt="Alert Center" src="https://github.com/user-attachments/assets/8ab3cfe6-3289-40a6-a948-8a0d00e389b8" />
 
-*(Captions above are placeholders based on screen order — rename any that don't match the actual page shown.)*
 
 ---
 
